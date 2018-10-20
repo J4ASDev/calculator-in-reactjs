@@ -1,0 +1,7 @@
+.ContainerKEYPAD {
+  display: grid;
+  width: 300px;
+  height: 310px;
+  justify-self: center;
+  grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,30 @@
+.Buttons {
+  color: #45434d;
+  font-size: 20px;
+  font-family: 'K2D', sans-serif;
+  font-weight: 300;
+  height: 60px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.Buttons:active {
+  color: white;
+}
+
+.Buttons[data-value="equal"] {
+  height: 100%;
+  grid-area: 4 / 4 / 6 / 5;
+  background: #34323a;
+  color: white;
+  border-radius: 2px;
+}
+
+.Buttons[data-value="equal"]:active {
+  background: #45434d;
+}
+
+.Buttons[data-value="null"] {
+  pointer-events: none;
+}
